@@ -10,6 +10,21 @@
 >src/main/webapp/WEB-INF/view
 
 
+### dependency 추가
+```xml
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-jasper</artifactId>
+    <scope>provided</scope>
+</dependency>
+```
+
+
 ### jsp prefix, suffix 설정
 application.yml에 설정 추가
 ```
